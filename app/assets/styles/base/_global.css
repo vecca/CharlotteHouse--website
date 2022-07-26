@@ -1,21 +1,22 @@
-html {
-    scroll-behavior: smooth;
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
 }
 
-body{
-    font-family: 'Roboto', sans-serif;
-    color: #333;
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #333;
 }
 
 img {
-    max-width: 100%;
-    height: auto;
-  }
-
-  *{
-      box-sizing: border-box;
-  }
-
-  a{
-      color: $mainOrange;
-  }
+  max-width: 100%;
+  height: auto;
+}
