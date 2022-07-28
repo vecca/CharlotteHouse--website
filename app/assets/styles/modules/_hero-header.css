@@ -1,0 +1,52 @@
+header {
+  display: grid;
+  grid-template-areas: "hero";
+  place-items: center;
+  height: 70vh;
+  max-height: 700px;
+  background-color: rgba($color-purple-dark, 0.8);
+  overflow: hidden;
+
+  > * {
+    grid-area: hero;
+  }
+
+  img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+  }
+
+  .hero--content {
+    z-index: 1;
+    text-align: center;
+    color: $color-white;
+    min-width: 30ch;
+    padding: 1rem;
+
+    h1 {
+      color: $color-white;
+      text-transform: uppercase;
+      font-weight: 300;
+      margin: 0;
+      .hero--title-accent {
+        font-weight: 600;
+      }
+    }
+    p {
+      margin: 0.5rem 0;
+    }
+
+    .hero--btn {
+      background-color: $color-purple-light;
+      color: $color-white;
+      padding: 1rem 2.8rem;
+      border-radius: 3rem;
+      border: none;
+      text-transform: uppercase;
+      margin-top: 1rem;
+      letter-spacing: 0.05rem;
+    }
+  }
+}

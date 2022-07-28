@@ -1,11 +1,10 @@
 /* COLOR VARIABLES*/
 $color-purple-light: #7f5af0;
 $color-purple-dark: #16161a;
-$color-white: #ffffff;
+$color-white: #fffffe;
 $color-gray-light: #f5f5f5;
 $color-gray-dark: #94a1b2;
-$color-gray-copy: #666;
-$color-gray-heading: #444;
+$color-gray-copy: #777777;
 
 /* FONT VARIABLES */
 $font-primary: "Source Sans Pro", sans-serif;
