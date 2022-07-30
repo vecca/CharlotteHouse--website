@@ -1,20 +1,24 @@
-.btn{
-    background-color: $mainBlue;
-    color: #fff;
+.btn {
+  color: $color-white;
+  padding: 1rem 2.8rem;
+  border-radius: 3rem;
+  border: none;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+  display: inline-block;
+  transition: all 0.3s;
+
+  &--purple {
+    background-color: $color-purple-light;
+  }
+  &--small {
+    list-style: none;
     text-decoration: none;
-    padding: .75rem 1.2rem;
-    display: inline-block;
+    padding: 0.6rem 2rem;
+    color: $color-white !important;
+  }
 
-    &--orange{
-        background-color: $mainOrange;
-    }
-
-    &--large{
-        padding: 1.1rem 1.9rem;
-
-        @mixin atSmall{
-            font-size: 1.25rem;
-        }
-    }
-
+  &:hover {
+    background-color: #6d4fc7;
+  }
 }

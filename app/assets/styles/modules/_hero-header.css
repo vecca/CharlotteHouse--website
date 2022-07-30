@@ -2,8 +2,8 @@ header {
   display: grid;
   grid-template-areas: "hero";
   place-items: center;
-  height: 70vh;
-  max-height: 700px;
+  height: 80vh;
+  max-height: 800px;
   background-color: rgba($color-purple-dark, 0.8);
   overflow: hidden;
 
@@ -35,18 +35,7 @@ header {
       }
     }
     p {
-      margin: 0.5rem 0;
-    }
-
-    .hero--btn {
-      background-color: $color-purple-light;
-      color: $color-white;
-      padding: 1rem 2.8rem;
-      border-radius: 3rem;
-      border: none;
-      text-transform: uppercase;
-      margin-top: 1rem;
-      letter-spacing: 0.05rem;
+      margin: 1rem 0;
     }
   }
 }

@@ -1,0 +1,9 @@
+.container {
+  max-width: 120rem;
+  padding: calc(8px + 1.5625vw);
+  margin: 0 auto;
+}
+
+.section {
+  padding: 4rem 0;
+}

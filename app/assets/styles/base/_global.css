@@ -18,11 +18,14 @@ body {
   color: $color-gray-copy;
   font-weight: 400;
   line-height: 1.6;
+  background-color: $color-gray-light;
 }
 
 img {
+  display: block;
   max-width: 100%;
   height: auto;
+  width: 100%;
 }
 
 h1,
@@ -32,4 +35,8 @@ h4,
 h5,
 h6 {
   color: $color-purple-dark;
+}
+
+figure {
+  margin: 0;
 }

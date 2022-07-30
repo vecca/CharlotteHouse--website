@@ -1,0 +1,29 @@
+.feature-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 2rem;
+}
+.feature {
+  box-shadow: 0 0.3rem 1rem rgba(0, 0, 0, 0.075);
+  border-radius: 11px;
+  transition: all 0.4s;
+  background-color: $color-white;
+  overflow: hidden;
+
+  &:hover {
+    transform: translateY(-1rem);
+    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.06);
+  }
+
+  &-image {
+    aspect-ratio: 16/9;
+    object-fit: cover;
+  }
+
+  &-body {
+    display: grid;
+    align-items: center;
+    text-align: center;
+    min-height: 10rem;
+  }
+}
