@@ -10,16 +10,41 @@
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap" rel="stylesheet" />
   </head>
   <body>
-    <nav class="main-nav">
-      <img src="img/logo.png" alt="Logo" class="nav__logo" id="logo" />
-      <ul class="main-nav-list">
-        <li><a class="main-nav-link" href="#">About</a></li>
-        <li><a class="main-nav-link" href="#">Map</a></li>
-        <li><a class="main-nav-link" href="#">Gallery</a></li>
-        <li><a class="main-nav-link" href="#">Contact</a></li>
-        <li><a class="main-nav-link nav-cta btn btn--purple btn--small" href="#">Book now</a></li>
-      </ul>
-    </nav>
+    <!-- <div class="navigation">
+      <input type="checkbox" class="navigation__checkbox" id="navi-toggle" />
+
+      <label for="navi-toggle" class="navigation__button">
+        <span class="navigation__icon">&nbsp;</span>
+      </label>
+      <div class="navigation__background">&nbsp;</div>
+     
+      <nav class="navigation__nav">
+        <ul class="navigation__list">
+          <li class="navigation__item"><a class="navigation__link" href="#">About</a></li>
+          <li class="navigation__item"><a class="navigation__link" href="#">Map</a></li>
+          <li class="navigation__item"><a class="navigation__link" href="#">Gallery</a></li>
+          <li class="navigation__item"><a class="navigation__link" href="#">Contact</a></li>
+          <li class="navigation__item"><a class="navigation__link nav-cta btn btn--purple btn--small" href="#">Book now</a></li>
+        </ul>
+      </nav>
+    </div> -->
+    <!-- navigation -->
+    <section class="navWrap">
+      <img src="assets/images/placeholder-logo.svg" alt="Logo" class="logo" />
+      <input type="checkbox" id="navToggle" class="navToggle" />
+      <label for="navToggle" class="navToggleLabel"><span></span></label>
+      <nav class="nav">
+        <ul class="nav__links">
+          <li class="nav__item"><a class="nav__link" href="#home">Home</a></li>
+          <li class="nav__item"><a class="nav__link" href="#team">About</a></li>
+          <li class="nav__item"><a class="nav__link" href="#gallery">Gallery</a></li>
+          <li class="nav__item"><a class="nav__link" href="#problem">Map</a></li>
+          <li class="nav__item"><a class="nav__link" href="#contact">Contact</a></li>
+          <li class="nav__item"><a class="btn btn--purple btn--small" href="#trips">Book now</a></li>
+        </ul>
+      </nav>
+    </section>
+
     <header>
       <div class="hero--content">
         <h1 class="hero--title"><span class="hero--title-accent">Charlotte</span> House</h1>

@@ -4,7 +4,8 @@ header {
   place-items: center;
   height: 80vh;
   max-height: 800px;
-  background-color: rgba($color-purple-dark, 0.8);
+  background-image: linear-gradient(to bottom, rgba(22, 22, 26, 0.9) 98%, rgba(127, 90, 240, 1) 2%);
+  /* background-color: rgba($color-purple-dark, 0.8); */
   overflow: hidden;
 
   > * {
