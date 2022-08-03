@@ -17,6 +17,7 @@ header {
     height: 100%;
     width: 100%;
     z-index: -1;
+    max-height: 700px;
   }
 
   .hero--content {
@@ -33,6 +34,18 @@ header {
       margin: 0;
       .hero--title-accent {
         font-weight: 600;
+      }
+
+      @mixin atSmall {
+        font-size: 2.5rem;
+      }
+
+      @mixin atMedium {
+        font-size: 3rem;
+      }
+
+      @mixin atLarge {
+        font-size: 4rem;
       }
     }
     p {

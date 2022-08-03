@@ -11,3 +11,7 @@
 .mt-sm {
   margin-top: 1rem;
 }
+
+.mx-auto {
+  margin: 0 auto;
+}

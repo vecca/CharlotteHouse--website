@@ -1,0 +1,23 @@
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 1rem;
+  @mixin atSmall {
+    grid-template-columns: repeat(2, minmax(200px, 1fr));
+    max-width: 800px;
+  }
+  @mixin atLarge {
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+    max-width: 800px;
+  }
+}
+
+.img-box {
+  aspect-ratio: 1 / 1;
+  img {
+    object-fit: cover;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+}
