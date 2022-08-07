@@ -12,3 +12,7 @@
 .section__header {
   font-size: 2rem;
 }
+
+.section-cat {
+  padding-top: 0;
+}

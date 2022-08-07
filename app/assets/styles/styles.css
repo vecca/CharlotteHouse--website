@@ -14,3 +14,4 @@
 @import "../../../node_modules/lightgallery/css/lightgallery-bundle.css";
 @import "modules/_imageGallery";
 @import "modules/_footer";
+@import "modules/_modal";
