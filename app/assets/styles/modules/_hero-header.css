@@ -17,7 +17,7 @@ header {
     height: 100%;
     width: 100%;
     z-index: -1;
-    /* max-height: 700px; */
+    max-height: 800px;
   }
 
   .hero--content {
