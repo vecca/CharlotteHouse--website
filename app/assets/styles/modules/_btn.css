@@ -22,3 +22,11 @@
     background-color: #6d4fc7;
   }
 }
+
+.sticky .btn {
+  @mixin atLarge {
+    &--small {
+      padding: 0.2rem 1.5rem;
+    }
+  }
+}

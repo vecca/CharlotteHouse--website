@@ -15,3 +15,7 @@
 .mx-auto {
   margin: 0 auto;
 }
+
+.text-center {
+  text-align: center;
+}

@@ -1,0 +1,16 @@
+.section-footer {
+  background-color: $color-purple-dark;
+  display: flex;
+  justify-content: center;
+}
+
+.address-box {
+  color: $color-gray-dark;
+  text-align: center;
+  font-style: normal;
+  padding: 2rem 0;
+
+  a {
+    color: $color-gray-light;
+  }
+}
