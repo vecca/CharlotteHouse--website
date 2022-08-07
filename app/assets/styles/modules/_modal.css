@@ -14,9 +14,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  border-top: 10px solid $color-purple-light;
+
+  a {
+    color: $color-purple-light;
+    text-decoration: none;
+  }
 
   @mixin atLarge {
-    max-width: 60rem;
+    max-width: 40rem;
   }
 
   &__header {
