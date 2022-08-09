@@ -7,6 +7,7 @@ class StickyNav {
     this.pageSections = document.querySelectorAll(".section");
     this.browserHeight = window.innerHeight;
     this.previousScrollY = window.scrollY;
+    this.siteLogo = document.querySelector(".logo");
     this.events();
   }
 
@@ -28,8 +29,10 @@ class StickyNav {
 
     if (window.scrollY > 60) {
       this.siteHeader.classList.add("sticky");
+      this.siteLogo.src = "assets/images/placeholder-logo.svg";
     } else {
       this.siteHeader.classList.remove("sticky");
+      this.siteLogo.src = "assets/images/placeholder-logo--white.svg";
     }
 
     //this.pageSections.forEach((el) => this.calcSection(el));
