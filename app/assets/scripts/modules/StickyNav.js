@@ -29,7 +29,9 @@ class StickyNav {
 
     if (window.scrollY > 60) {
       this.siteHeader.classList.add("sticky");
-      this.siteLogo.src = "assets/images/placeholder-logo.svg";
+      if (getComputedStyle(this.siteHeader).display == "grid") {
+        this.siteLogo.src = "assets/images/placeholder-logo.svg";
+      }
     } else {
       this.siteHeader.classList.remove("sticky");
       this.siteLogo.src = "assets/images/placeholder-logo--white.svg";
