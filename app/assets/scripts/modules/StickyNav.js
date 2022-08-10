@@ -54,7 +54,6 @@ class StickyNav {
       let scrollPercent = (el.getBoundingClientRect().top / this.browserHeight) * 100;
       if ((scrollPercent < 18 && scrollPercent > -0.1 && this.scrollDirection == "down") || (scrollPercent < 33 && this.scrollDirection == "up")) {
         let matchingLink = el.getAttribute("data-matching-link");
-        //console.log(matchingLink);
         document.querySelectorAll(`.nav a:not(${matchingLink})`).forEach((el) => el.classList.remove("is-current-link"));
         document.querySelector(matchingLink).classList.add("is-current-link");
       }
