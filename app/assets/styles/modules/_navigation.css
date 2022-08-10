@@ -143,7 +143,7 @@ input#navToggle ~ label > span::after {
       display: inline-block;
       text-decoration: none;
       width: 100%;
-      padding: 1.2rem 1.5rem;
+      padding: 1rem 1.5rem;
       color: $color-gray-light;
       border-bottom: solid 1px $color-gray-dark;
       transition: 0.14s ease-in-out;
@@ -151,7 +151,7 @@ input#navToggle ~ label > span::after {
         color: $color-white;
         border-bottom: none;
         background: transparent;
-        padding: 0.8rem 1rem;
+        padding: 0.6rem 1rem;
       }
     }
 
@@ -173,7 +173,7 @@ input#navToggle ~ label > span::after {
       display: inline-block;
       text-decoration: none;
       width: 100%;
-      padding: 1.2rem 1.5rem;
+      padding: 1rem 1.5rem;
       color: $color-gray-light;
       border-bottom: solid 1px $color-gray-dark;
       transition: 0.14s ease-in-out;
@@ -181,7 +181,7 @@ input#navToggle ~ label > span::after {
         color: $color-purple-dark;
         border-bottom: none;
         background: transparent;
-        padding: 0.8rem 1rem;
+        padding: 0.5rem 1rem;
       }
     }
 
@@ -190,6 +190,12 @@ input#navToggle ~ label > span::after {
       color: $color-purple-light;
       background-color: $color-gray-dark;
       @mixin atLarge {
+        color: $color-purple-light;
+        background-color: transparent;
+      }
+    }
+    @mixin atLarge {
+      &.is-current-link {
         color: $color-purple-light;
         background-color: transparent;
       }

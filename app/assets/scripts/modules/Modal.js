@@ -18,7 +18,6 @@ class Modal {
   }
 
   openTheModal() {
-    console.log("Clicked");
     this.modal.classList.remove("hidden");
     this.overlay.classList.remove("hidden");
   }

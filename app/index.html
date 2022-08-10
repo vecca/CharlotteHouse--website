@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap" rel="stylesheet" />
-    <!-- <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/css/lightgallery-bundle.css" /> -->
+    <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/css/lightgallery-bundle.css" />
     
   </head>
   <body id="home">
@@ -19,10 +19,10 @@
           <label for="navToggle" class="navToggleLabel"><span></span></label>
           <nav class="nav">
             <ul class="nav__links">
-              <li class="nav__item"><a class="nav__link" href="#home">Home</a></li>
-              <li class="nav__item"><a class="nav__link" href="#section-1">About</a></li>
-              <li class="nav__item"><a class="nav__link" href="#section-2">Map</a></li>
-              <li class="nav__item"><a class="nav__link" href="#section-3">Gallery</a></li>
+              <li class="nav__item"><a class="nav__link" href="#home" id="home-link">Home</a></li>
+              <li class="nav__item"><a class="nav__link" href="#section-1" id="features-link">About</a></li>
+              <li class="nav__item"><a class="nav__link" href="#section-2" id="location-link">Map</a></li>
+              <li class="nav__item"><a class="nav__link" href="#section-3" id="gallery-link">Gallery</a></li>
               <li class="nav__item"><a class="btn btn--purple btn--small btn--show-modal" href="#trips">Book now</a></li>
             </ul>
           </nav>
@@ -39,7 +39,7 @@
       <img src="assets/images/Charlotte_House--2000w.jpg" alt="Charlotte House Building" />
     </header>
     <main>
-      <section class="section section-features" id="section-1">
+      <section class="section section-features" id="section-1" data-matching-link="#features-link">
         <div class="container">
           <div class="feature-container">
             <figure class="feature">
@@ -65,21 +65,20 @@
           </div>
         </div>
       </section>
-      <section class="section-map" id="section-2">
+      <section class="section-map" id="section-2" data-matching-link="#location-link">
         <div class="container">
           <div class="section__title">
-            <!-- <h3 class="section__description">Location</h3> -->
             <h3 class="section__header">
               Located in the heart of Brisbane's CBD.
             </h3>
           </div>
           <div id="map">
-            <img class="map-image" src="/assets/images/map-placeholder.png" alt="map" />
-            <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3106.7321234187393!2d153.02622788117645!3d-27.470636470118972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b915a1b6a0cc96d%3A0x1fa21091aad930ca!2s139%20Charlotte%20St%2C%20Brisbane%20City%20QLD%204000!5e0!3m2!1sen!2sau!4v1659160062703!5m2!1sen!2sau" width="100%" height="500" style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+            <!-- <img class="map-image" src="/assets/images/map-placeholder.png" alt="map" /> -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3106.7321234187393!2d153.02622788117645!3d-27.470636470118972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b915a1b6a0cc96d%3A0x1fa21091aad930ca!2s139%20Charlotte%20St%2C%20Brisbane%20City%20QLD%204000!5e0!3m2!1sen!2sau!4v1659160062703!5m2!1sen!2sau" width="100%" height="500" style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </div>
       </section>
-      <section class="section section-gallery" id="section-3">
+      <section class="section section-gallery" id="section-3" data-matching-link="#gallery-link">
         <div class="container ">
           <div id="lightgallery" class="gallery-container mx-auto">
             <a class="img-box" href="assets/images/hero--small-i.jpg" data-lg-size="990-654">

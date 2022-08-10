@@ -3,7 +3,6 @@
 @import "base/_global";
 @import "base/_layout";
 @import "base/_mixins";
-@import "base/_fonts";
 
 @import "modules/_section";
 @import "modules/_btn";
@@ -11,7 +10,7 @@
 @import "modules/_hero-header";
 @import "modules/_card";
 @import "modules/_map";
-@import "../../../node_modules/lightgallery/css/lightgallery-bundle.css";
+/* @import "../../../node_modules/lightgallery/css/lightgallery-bundle.css"; */
 @import "modules/_imageGallery";
 @import "modules/_footer";
 @import "modules/_modal";
