@@ -4,7 +4,7 @@ header {
   place-items: center;
   height: 80vh;
   max-height: 800px;
-  background-image: linear-gradient(to bottom, rgba(22, 22, 26, 0.7) 98%, rgba(127, 90, 240, 1) 2%);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 98%, rgba(127, 90, 240, 1) 2%);
   /* background-color: rgba($color-purple-dark, 0.8); */
   overflow: hidden;
 
@@ -26,6 +26,11 @@ header {
     color: $color-white;
     min-width: 30ch;
     padding: 1rem;
+
+    .hero--logo {
+      max-width: 150px;
+      margin: 0 auto;
+    }
 
     h1 {
       color: $color-white;

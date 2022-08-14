@@ -26,6 +26,11 @@ img {
   max-width: 100%;
   height: auto;
   width: 100%;
+  transition: filter 0.5s;
+}
+
+.lazy-img {
+  filter: blur(20px);
 }
 
 h1,
